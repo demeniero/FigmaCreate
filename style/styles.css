@@ -1,17 +1,20 @@
-.header{
-    color: red;
-}
-.menu  {
-    list-style-type: none;
-    padding-left: 700px;
-    margin-left: 25px;
-    
+p{
+    color: white;
 }
 
-.menu nav{
-    display: inline;
+.flex_item1{
+font-style: italic;
+src: url(/Text/Alegreya/Alegreya-Italic-VariableFont_wght.ttf);
 }
-
-.menu__logo_logo{
-    color:red;
+.Flex_item3{
+    src: url(/Text/Alegreya/Alegreya-VariableFont_wght.ttf);
 }
+.container{
+ background-color: gray;
+ opacity: 0.5;
+ display: inline-flex;
+height: 70px;   
+width: 1600px;
+flex-wrap: wrap;
+justify-content: space-between;
+        }
